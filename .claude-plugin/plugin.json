@@ -1,0 +1,14 @@
+{
+  "name": "recruitment-skills",
+  "version": "1.1.0",
+  "description": "招聘相关技能集合，专为技术岗位简历筛选设计，包含强化学习工程师和大模型 Infra 工程师两个评估 skill。",
+  "author": {
+    "name": "cmq2525",
+    "url": "https://github.com/cmq2525"
+  },
+  "homepage": "https://github.com/cmq2525/skills",
+  "repository": "https://github.com/cmq2525/skills",
+  "license": "MIT",
+  "keywords": ["recruitment", "resume", "screening", "reinforcement-learning", "llm-infra", "hiring"],
+  "skills": "./skills/"
+}

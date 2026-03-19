@@ -1,0 +1,26 @@
+{
+  "name": "cmq-skills",
+  "owner": {
+    "name": "cmq2525",
+    "email": ""
+  },
+  "metadata": {
+    "description": "cmq2525 的招聘技能市场，专为技术岗位简历筛选设计。",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "recruitment-skills",
+      "source": "./",
+      "description": "招聘技能集合，包含强化学习工程师和大模型 Infra 工程师两个简历评估 skill。",
+      "version": "1.1.0",
+      "author": {
+        "name": "cmq2525"
+      },
+      "homepage": "https://github.com/cmq2525/skills",
+      "repository": "https://github.com/cmq2525/skills",
+      "license": "MIT",
+      "keywords": ["recruitment", "resume", "reinforcement-learning", "llm-infra"]
+    }
+  ]
+}
