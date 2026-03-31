@@ -10,9 +10,9 @@
   },
   "plugins": [
     {
-      "name": "recruitment-skills",
+      "name": "cmq-work-skills",
       "source": "./",
-      "description": "招聘技能集合，包含强化学习工程师和大模型 Infra 工程师两个简历评估 skill。",
+      "description": "cmq2525 的工作技能集合，当前包含技术岗位简历筛选相关 skill。",
       "version": "1.1.0",
       "author": {
         "name": "cmq2525"

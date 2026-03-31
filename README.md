@@ -1,6 +1,6 @@
 # cmq2525/skills
 
-招聘相关技能集合，专为技术岗位简历筛选设计，支持通过 Claude Code 的 `/plugin` 命令一键安装。
+cmq2525 的工作技能集合，支持通过 Claude Code 的 `/plugin` 命令一键安装。目前已有的 skill 以技术岗位简历筛选为主，未来会持续扩展。
 
 ## 安装方法
 
@@ -8,7 +8,7 @@
 
 ```
 /plugin marketplace add cmq2525/skills
-/plugin install recruitment-skills@cmq-skills
+/plugin install cmq-work-skills@cmq-skills
 ```
 
 安装完成后，上传候选人简历（PDF/Word/文本）并说"帮我筛选这份简历"，Claude 将自动调用对应的 skill 进行评估。
