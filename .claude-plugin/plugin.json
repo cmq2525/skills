@@ -1,7 +1,7 @@
 {
   "name": "cmq-work-skills",
-  "version": "1.1.0",
-  "description": "cmq2525 的工作技能集合，当前包含技术岗位简历筛选相关 skill。",
+  "version": "1.2.0",
+  "description": "cmq2525 的工作技能集合，包含技术岗位简历筛选和代码审查相关 skill。",
   "author": {
     "name": "cmq2525",
     "url": "https://github.com/cmq2525"
@@ -9,6 +9,6 @@
   "homepage": "https://github.com/cmq2525/skills",
   "repository": "https://github.com/cmq2525/skills",
   "license": "MIT",
-  "keywords": ["recruitment", "resume", "screening", "reinforcement-learning", "llm-infra", "hiring"],
+  "keywords": ["recruitment", "resume", "screening", "reinforcement-learning", "llm-infra", "hiring", "code-review", "branch-diff"],
   "skills": "./skills/"
 }

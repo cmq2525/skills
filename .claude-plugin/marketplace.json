@@ -5,22 +5,22 @@
     "email": ""
   },
   "metadata": {
-    "description": "cmq2525 的招聘技能市场，专为技术岗位简历筛选设计。",
-    "version": "1.1.0"
+    "description": "cmq2525 的技能市场，包含技术岗位简历筛选和代码审查工具。",
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "cmq-work-skills",
       "source": "./",
-      "description": "cmq2525 的工作技能集合，当前包含技术岗位简历筛选相关 skill。",
-      "version": "1.1.0",
+      "description": "cmq2525 的工作技能集合，包含技术岗位简历筛选和代码审查相关 skill。",
+      "version": "1.2.0",
       "author": {
         "name": "cmq2525"
       },
       "homepage": "https://github.com/cmq2525/skills",
       "repository": "https://github.com/cmq2525/skills",
       "license": "MIT",
-      "keywords": ["recruitment", "resume", "reinforcement-learning", "llm-infra"]
+      "keywords": ["recruitment", "resume", "reinforcement-learning", "llm-infra", "code-review", "branch-diff"]
     }
   ]
 }

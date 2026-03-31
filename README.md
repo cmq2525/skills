@@ -1,6 +1,6 @@
 # cmq2525/skills
 
-cmq2525 的工作技能集合，支持通过 Claude Code 的 `/plugin` 命令一键安装。目前已有的 skill 以技术岗位简历筛选为主，未来会持续扩展。
+cmq2525 的工作技能集合，支持通过 Claude Code 的 `/plugin` 命令一键安装。包含技术岗位简历筛选和代码审查相关 skill。
 
 ## 安装方法
 
@@ -27,6 +27,12 @@ cmq2525 的工作技能集合，支持通过 Claude Code 的 `/plugin` 命令一
 
 **评分维度**：国产算力算子开发（35%）、分布式并行训练与通信优化（30%）、性能分析与故障诊断（15%）、工程基础与系统能力（10%）、加分项（10%）
 
+### review-branch-diff
+
+分支差异代码审查工具。对比当前分支与目标分支的 diff，聚焦于当前分支引入的变更，生成结构化的代码审查报告。支持 `strict`（全面审查）、`normal`（重点审查）、`loose`（仅严重问题）三种严格程度。使用前要求当前分支已 rebase 目标分支的最新提交。
+
+**调用方式**：`/review-branch-diff main`、`/review-branch-diff develop strict`、`/review-branch-diff 帮我严格审查和main的差异`
+
 ## 目录结构
 
 ```
@@ -38,9 +44,11 @@ cmq2525 的工作技能集合，支持通过 Claude Code 的 `/plugin` 命令一
 │   ├── reinforcement-learning-recruiter/
 │   │   ├── SKILL.md                              # 技能定义
 │   │   └── reinforcement_learning_engineer_jd.md # 原始 JD
-│   └── llm-infra-recruiter/
-│       ├── SKILL.md                              # 技能定义
-│       └── llm_infra_engineer_jd.md              # 原始 JD
+│   ├── llm-infra-recruiter/
+│   │   ├── SKILL.md                              # 技能定义
+│   │   └── llm_infra_engineer_jd.md              # 原始 JD
+│   └── review-branch-diff/
+│       └── SKILL.md                              # 技能定义
 └── README.md
 ```
 
